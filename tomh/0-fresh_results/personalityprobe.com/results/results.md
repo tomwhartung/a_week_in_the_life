@@ -19,6 +19,37 @@ There are 300 questions, and the breakdown is as follows:
 - 10 questions for each of these 30 facets = 300 questions
 - Each question gets a score of 1-5
 
+## Calculating Percentiles
+
+This is a little complicated, so here's the breakdown:
+
+### Offset
+
+Offset = Lowest Possible **Raw** Score
+
+- **Lowest** possible **raw** score on a **facet** is 1 * 10 = **10**
+- **Lowest** possible **raw** score on a **factor** is 6 * 10 = **60**
+
+### Most Extreme = Highest Possible **Raw** Score
+
+- **Highest** possible **raw** score on a **facet** is 5 * 10 = **50**
+- **Highest** possible **raw** score on a **factor** is 6 * 50 = **300**
+
+### Median = Lowest Possible **Raw** Score
+
+- **Median raw** score on a **facet** is 3 * 10 = **30**
+- **Median raw** score on a **factor** is 6 * 30 = **180**
+
+So, the percentile is:
+
+- [ ( raw_score - median ) / 20 ] * 100 = percentile
+
+Check the middle and both extremes:
+
+- Lowest facet: [ ( 10 - 30 ) / 20 ] * 100 = -100%
+- Median facet: [ ( 30 - 30 ) / 20 ] * 100 = 0%
+- Highest facet: [ ( 50 - 30 ) / 20 ] * 100 = +100%
+
 
 # Understanding My Results
 
