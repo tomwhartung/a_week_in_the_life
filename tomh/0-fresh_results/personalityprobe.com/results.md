@@ -1,14 +1,25 @@
 
-# tomh/personalityprobe.com/results/results.md
+# tomh/personalityprobe.com/results.md
 
-Results from the 300-question quiz at personalityprobe.com
+This file contains my results from the 300-question quiz at [personalityprobe.com](personalityprobe.com).
 
 - Taken 8/15/2025
-- Each page has 10 questions that all cover the same facet
+- Each page has 10 questions that all cover the same facet, which kinda sucks
   - It lists the facet at the top of the page, which is not the best way to do things
   - It appeared that it presented the factors (and possibly the facets) in alphabetical order
 - Site gave several errors, but reloading the page allowed me to continue working my way through
 - The results appear to be reasonably consistent with both my prior results and my self-perception
+
+**The questionnaire at [personalityassessor.com](personalityassessor.com) was much more friendly!**
+
+
+# Content of the Questionnaire
+
+There are 300 questions, broken down as follows:
+
+- 5 factors with 6 facets each = 30 total facets
+- 10 questions for each of these 30 facets = 300 questions
+- Each question gets a score of 1-5
 
 
 # Summary of Results
@@ -62,80 +73,6 @@ Results from the 300-question quiz at personalityprobe.com
 - Immoderation Percentile: 32.5%
 - Vulnerability Percentile: 42.5%
 - **Total Neurotic Percentile: 35.4%**
-
-
-# Understanding the Results
-
-There are 300 questions, and the breakdown is as follows:
-
-- 5 factors with 6 facets each = 30 total facets
-- 10 questions for each of these 30 facets = 300 questions
-- Each question gets a score of 1-5
-
-## Calculating Percentiles
-
-This can be a little complicated, so here's the breakdown:
-
-### Median = Absolutely "Normal" **Raw** Score
-
-- **Median raw** score on a **facet** is 3 * 10 = **30**
-- **Median raw** score on a **factor** is 6 * 30 = **180**
-
-### Lowest = Offset
-
-Offset = Lowest Possible **Raw** Score
-
-- **Lowest** possible **Raw Facet** score = 1 * 10 = Offset for a **Facet** = **10**
-- **Lowest** possible **Raw Factor** score = 6 * 10 = Offset for a **Factor** = **60**
-
-### Net_Score
-
-Net_Score = Raw_Score - Offset
-
-- Net_Score for a **Facet** = Raw_Score - Offset for a **Facet** = Raw_Score - 10
-- Net_Score for a **Factor** = Raw_Score - Offset for a **Factor** = Raw_Score - 60
-
-### Highest
-
-Highest Possible = Most Extreme **Raw** Score
-
-- **Highest** possible **raw** score on a **facet** is 5 * 10 = **50**
-- **Highest** possible **raw** score on a **factor** is 6 * 50 = **300**
-
-### Range
-
-Range of **Facet** Scores = Maximum Possible - Lowest Possible
-
-- Range of **Facet** Scores = 50 - 10 = **40**
-
-### Percentile
-
-So, the percentile is:
-
-- Percentile for a **Facet:** ( Net Score / 40 ) * 100 = Net_Score * 2.5
-  - Percentile for a **Facet** = Net_Score * 2.5
-- Percentile for a **Factor:** ( Net Score / 240 ) * 100 = Net_Score * 0.4167
-  - Percentile for a **Factor** = Net_Score * 0.4167
-
-### Checks
-
-Check the middle and both extremes for **Facets:**
-
-- Lowest facet, Raw_Score = 10: [ ( 10 - 10 ) / 40 ] * 100 = [ 0 / 40 ] * 100 = 0%
-  - Lowest facet, Net_Score = 0: Percentile = 0 * 2.5 = 0%
-- Median facet, Raw_Score = 30: [ ( 30 - 10 ) / 40 ] * 100 = [ 20 / 40 ] * 100 = 50%
-  - Median facet, Net_Score = 20: Percentile = 20 * 2.5 = 50%
-- Highest facet, Raw_Score = 50: [ ( 50 - 10 ) / 40 ] * 100 = [40 / 40 ] * 100 = +100%
-  - Highest facet, Net_Score = 40: Percentile = 40 * 2.5 = +100%
-
-Check the middle and both extremes for **Factors:**
-
-- Lowest factor, Raw_Score = 60: [ ( 60 - 60 ) / 40 ] * 100 = [ 0 / 40 ] * 100 = 0%
-  - Lowest factor, Net_Score = 0: Percentile = 0 * 0.4167 = 0%
-- Median factor, Raw_Score = 180: [ ( 180 - 60 ) / 40 ] * 100 = [ 20 / 40 ] * 100 = 50%
-  - Median factor, Net_Score = 120: Percentile = 120 * 0.4167 = 50%
-- Highest factor, Raw_Score = 300: [ ( 300 - 60 ) / 40 ] * 100 = [40 / 40 ] * 100 = +100%
-  - Highest factor, Net_Score = 240: Percentile = 240 * 0.4167 = +100%
 
 
 # Understanding My Results
@@ -309,4 +246,70 @@ Check the middle and both extremes for **Factors:**
 - **Total Neurotic - Difference_From_Median: -35**
 - **Total Neurotic - Net_Score: 85**
 - **Total Neurotic - Percentile: (85*0.4167) = 35.4%**
+
+
+# Calculating Percentiles
+
+This can be a little complicated, so here's the breakdown:
+
+## Median = Absolutely "Normal" **Raw** Score
+
+- **Median raw** score on a **facet** is 3 * 10 = **30**
+- **Median raw** score on a **factor** is 6 * 30 = **180**
+
+## Lowest = Offset
+
+Offset = Lowest Possible **Raw** Score
+
+- **Lowest** possible **Raw Facet** score = 1 * 10 = Offset for a **Facet** = **10**
+- **Lowest** possible **Raw Factor** score = 6 * 10 = Offset for a **Factor** = **60**
+
+## Net_Score
+
+Net_Score = Raw_Score - Offset
+
+- Net_Score for a **Facet** = Raw_Score - Offset for a **Facet** = Raw_Score - 10
+- Net_Score for a **Factor** = Raw_Score - Offset for a **Factor** = Raw_Score - 60
+
+## Highest
+
+Highest Possible = Most Extreme **Raw** Score
+
+- **Highest** possible **raw** score on a **facet** is 5 * 10 = **50**
+- **Highest** possible **raw** score on a **factor** is 6 * 50 = **300**
+
+## Range
+
+Range of **Facet** Scores = Maximum Possible - Lowest Possible
+
+- Range of **Facet** Scores = 50 - 10 = **40**
+
+## Percentile
+
+So, the percentile is:
+
+- Percentile for a **Facet:** ( Net Score / 40 ) * 100 = Net_Score * 2.5
+  - Percentile for a **Facet** = Net_Score * 2.5
+- Percentile for a **Factor:** ( Net Score / 240 ) * 100 = Net_Score * 0.4167
+  - Percentile for a **Factor** = Net_Score * 0.4167
+
+## Checks
+
+Check the middle and both extremes for **Facets:**
+
+- Lowest facet, Raw_Score = 10: [ ( 10 - 10 ) / 40 ] * 100 = [ 0 / 40 ] * 100 = 0%
+  - Lowest facet, Net_Score = 0: Percentile = 0 * 2.5 = 0%
+- Median facet, Raw_Score = 30: [ ( 30 - 10 ) / 40 ] * 100 = [ 20 / 40 ] * 100 = 50%
+  - Median facet, Net_Score = 20: Percentile = 20 * 2.5 = 50%
+- Highest facet, Raw_Score = 50: [ ( 50 - 10 ) / 40 ] * 100 = [40 / 40 ] * 100 = +100%
+  - Highest facet, Net_Score = 40: Percentile = 40 * 2.5 = +100%
+
+Check the middle and both extremes for **Factors:**
+
+- Lowest factor, Raw_Score = 60: [ ( 60 - 60 ) / 40 ] * 100 = [ 0 / 40 ] * 100 = 0%
+  - Lowest factor, Net_Score = 0: Percentile = 0 * 0.4167 = 0%
+- Median factor, Raw_Score = 180: [ ( 180 - 60 ) / 40 ] * 100 = [ 20 / 40 ] * 100 = 50%
+  - Median factor, Net_Score = 120: Percentile = 120 * 0.4167 = 50%
+- Highest factor, Raw_Score = 300: [ ( 300 - 60 ) / 40 ] * 100 = [40 / 40 ] * 100 = +100%
+  - Highest factor, Net_Score = 240: Percentile = 240 * 0.4167 = +100%
 
