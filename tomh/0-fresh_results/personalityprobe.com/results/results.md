@@ -21,28 +21,45 @@ There are 300 questions, and the breakdown is as follows:
 
 ## Calculating Percentiles
 
-This is a little complicated, so here's the breakdown:
+This can be a little complicated, so here's the breakdown:
 
-### Offset
-
-Offset = Lowest Possible **Raw** Score
-
-- **Lowest** possible **raw** score on a **facet** is 1 * 10 = **10**
-- **Lowest** possible **raw** score on a **factor** is 6 * 10 = **60**
-
-### Most Extreme = Highest Possible **Raw** Score
-
-- **Highest** possible **raw** score on a **facet** is 5 * 10 = **50**
-- **Highest** possible **raw** score on a **factor** is 6 * 50 = **300**
-
-### Median = Lowest Possible **Raw** Score
+### Median = Absolutely "Normal" **Raw** Score
 
 - **Median raw** score on a **facet** is 3 * 10 = **30**
 - **Median raw** score on a **factor** is 6 * 30 = **180**
 
+### Lowest = Offset
+
+Offset = Lowest Possible **Raw** Score
+
+- **Lowest** possible **Raw Facet** score = 1 * 10 = Offset for a **Facet** = **10**
+- **Lowest** possible **Raw Factor** score = 6 * 10 = Offset for a **Factor** = **60**
+
+### Net_Score
+
+Net_Score = Raw_Score - Offset
+
+- Net_Score for a **Facet** = Raw_Score - Offset for a **Facet** = Raw_Score - 10
+- Net_Score for a **Factor** = Raw_Score - Offset for a **Factor** = Raw_Score - 60
+
+### Highest
+
+Highest Possible = Most Extreme **Raw** Score
+
+- **Highest** possible **raw** score on a **facet** is 5 * 10 = **50**
+- **Highest** possible **raw** score on a **factor** is 6 * 50 = **300**
+
+### Range
+
+Range of **Facet** Scores = Maximum Possible - Lowest Possible
+
+- Range of **Facet** Scores = 50 - 10 = **40**
+
+### Percentile
+
 So, the percentile is:
 
-- [ ( raw_score - median ) / 20 ] * 100 = percentile
+- [ ( Raw Score - Offset ) / 20 ] * 100 = percentile
 
 Check the middle and both extremes:
 
@@ -55,56 +72,126 @@ Check the middle and both extremes:
 
 ## Openness
 
-- Imagination: 43-30 = +13
-- Artistic Interests: 43-30 = +13
-- Emotionality: 45-30 = +15
-- Adventurousness: 40-30 = +10
-- Intellect: 45-30 = +15
-- Liberalism: 44-30 = +14
+- Imagination - Raw Score: 43
+  - Difference_From_Median: 43-30 = +13
+  - Net_Score: 43-10 = 33
+- Artistic Interests - Raw Score: 43
+  - Difference_From_Median: 43-30 = +13
+  - Net_Score: 43-10 = 33
+- Emotionality - Raw Score: 45
+  - Difference_From_Median: 45-30 = +15
+  - Net_Score: 45-10 = 35
+- Adventurousness - Raw Score: 40
+  - Difference_From_Median: 40-30 = +10
+  - Net_Score: 40-10 = 30
+- Intellect - Raw Score: 45
+  - Difference_From_Median: 45-30 = +15
+  - Net_Score: 45-10 = 35
+- Liberalism - Raw Score: 44
+  - Difference_From_Median: 44-30 = +14
+  - Net_Score: 44-10 = 34
 
-**Total Openness: +80**
+**Total Openness - Raw_Score: 260**
+**Total Openness - Difference_From_Median: +80**
+**Total Openness - Net_Score: 200**
 
 ## Conscientious
 
-- Self-efficacy: 42-30 = +12
-- Orderliness: 38-30 = +8
-- Dutifulness: 47-30 = +17
-- Achievement Striving: 37-30 = +7
-- Self-discipline: 32-30 = +2
-- Cautiousness: 45-30 = +15
+- Self-efficacy - Raw Score: 42
+  - Difference_From_Median: 42-30 = +12
+  - Net_Score: 42-10 = 32
+- Orderliness - Raw Score: 38
+  - Difference_From_Median: 38-30 = +8
+  - Net_Score: 38-10 = 28
+- Dutifulness - Raw Score: 47
+  - Difference_From_Median 47-30 = +17
+  - Net_Score 47-10 = 37
+- Achievement Striving - Raw Score: 37
+  - Difference_From_Median 37-30 = +7
+  - Net_Score 37-10 = 27
+- Self-discipline - Raw Score: 32
+  - Difference_From_Median 32-30 = +2
+  - Net_Score 32-10 = 22
+- Cautiousness - Raw Score: 45
+  - Difference_From_Median 45-30 = +15
+  - Net_Score 45-10 = 35
 
-**Total Conscientious: +61**
+**Total Conscientious: - Raw_Score 241**
+**Total Conscientious: - Difference_From_Median +61**
+**Total Conscientious: - Net_Score 181**
 
 ## Extraversion
 
-- Friendliness: 29-30 = -1
-- Gegariousness: 18-30 = -12
-- Assertiveness: 22-30 = -8
-- Activity Level: 21-30 = -9
-- Excitement Seeking: 14-30 = -16
-- Cheerfulness: 40-30 = +10
+- Friendliness - Raw Score: 29
+  - Difference_From_Median 29-30 = -1
+  - Net_Score 29-10 = 19
+- Gegariousness - Raw Score: 18
+  - Difference_From_Median 18-30 = -12
+  - Net_Score 18-10 = 8
+- Assertiveness - Raw Score: 22
+  - Difference_From_Median 22-30 = -8
+  - Net_Score 22-10 = 12
+- Activity Level - Raw Score: 21
+  - Difference_From_Median 21-30 = -9
+  - Net_Score 21-10 = 11
+- Excitement Seeking - Raw Score: 14
+  - Difference_From_Median 14-30 = -16
+  - Net_Score 14-10 = 4
+- Cheerfulness - Raw Score: 40
+  - Difference_From_Median 40-30 = +10
+  - Net_Score 40-10 = 30
 
-**Total Extraversion: -36**
+**Total Extraversion - Raw_Score: 144**
+**Total Extraversion - Difference_From_Median: -36**
+**Total Extraversion - Net_Score: 84**
 
 ## Agreeableness
 
-- Trust: 35-30 = +5
-- Morality: 48-30 = +18
-- Altruism: 42-30 = +12
-- Cooperation: 46-30 = +16
-- Modesty: 40-30 = +10
-- Sympathy: 33-30 = +3
+- Trust - Raw Score: 35
+  - Difference_From_Median 35-30 = +5
+  - Net_Score 35-10 = 25
+- Morality - Raw Score: 48
+  - Difference_From_Median 48-30 = +18
+  - Net_Score 48-10 = 38
+- Altruism - Raw Score: 42
+  - Difference_From_Median 42-30 = +12
+  - Net_Score 42-10 = 32
+- Cooperation - Raw Score: 46
+  - Difference_From_Median 46-30 = +16
+  - Net_Score 46-10 = 36
+- Modesty - Raw Score: 40
+  - Difference_From_Median 40-30 = +10
+  - Net_Score 40-10 = 30
+- Sympathy - Raw Score: 33
+  - Difference_From_Median 33-30 = +3
+  - Net_Score 33-10 = 23
 
-**Total Agreeableness: +64**
+**Total Agreeableness - Raw_Score: 244**
+**Total Agreeableness - Difference_From_Median: +64**
+**Total Agreeableness - Net_Score: 184**
 
 ## Neurotic
 
-- Anxiety: 28-30 = -2
-- Anger: 19-30 = -11
-- Depression: 16-30 = -14
-- Self-consciousness: 32-30 = 2
-- Immoderation: 23-30 = -7
-- Vulnerability: 27-30 = -3
+- Anxiety - Raw Score: 28
+  - Difference_From_Median 28-30 = -2
+  - Net_Score 28-10 = 18
+- Anger - Raw Score: 19
+  - Difference_From_Median: 19-30 = -11
+  - Net_Score: 19-10 = 9
+- Depression - Raw Score: 16
+  - Difference_From_Median: 16-30 = -14
+  - Net_Score: 16-10 = 6
+- Self-consciousness - Raw Score: 32
+  - Difference_From_Median: 32-30 = 2
+  - Net_Score: 32-10 = 22
+- Immoderation - Raw Score: 23
+  - Difference_From_Median: 23-30 = -7
+  - Net_Score: 23-10 = 13
+- Vulnerability - Raw Score: 27
+  - Difference_From_Median: 27-30 = -3
+  - Net_Score: 27-10 = 17
 
-**Total Neurotic: -35**
+**Total Neurotic - Raw_Score: 145**
+**Total Neurotic - Difference_From_Median: -35**
+**Total Neurotic - Net_Score: 85**
 
