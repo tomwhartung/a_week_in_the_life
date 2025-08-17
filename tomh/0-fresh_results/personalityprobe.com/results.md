@@ -19,60 +19,70 @@ There are 300 questions, broken down as follows:
 
 - 5 factors with 6 facets each = 30 total facets
 - 10 questions for each of these 30 facets = 300 questions
-- Each question gets a score of 1-5
+- It uses the Likert Scale, so each question gets a score of 1-5
 
 
 # Summary of Results
 
-## Openness
+The questionnaire presented the results in alphabetical order (ACENO), but I rearranged them into OCEAN order.
 
-- Imagination Percentile: 82.5%
+- I'm not sure that my percentiles match those used by [personalityassessor.com](personalityassessor.com)
+- A section appearing later in this document details how I calcuated my percentiles
+
+## Openness 83%
+
+- Adventurousness Percentile: 75%
 - Artistic Interests Percentile: 82.5%
 - Emotionality Percentile: 87.5%
-- Adventurousness Percentile: 75%
+- Imagination Percentile: 82.5%
 - Intellect Percentile: 87.5%
 - Liberalism Percentile: 85%
-- **Total Openness Percentile: 83.3%**
 
-## Conscientious
+**Total Openness Percentile: 83.3%**
 
-- Self-efficacy Percentile: 80%
-- Orderliness Percentile: 70%
-- Dutifulness Percentile: 92.5%
+## Conscientious: 75%
+
 - Achievement Striving Percentile: 67.5%
-- Self-discipline Percentile: 55%
 - Cautiousness Percentile: 87.5%
-- **Total Conscientious Percentile: 75.42%**
+- Dutifulness Percentile: 92.5%
+- Orderliness Percentile: 70%
+- Self-discipline Percentile: 55%
+- Self-efficacy Percentile: 80%
+
+**Total Conscientious Percentile: 75.42%**
 
 ## Extraversion
 
+- Activity Level Percentile: 27.5%
+- Assertiveness Percentile: 30%
+- Cheerfulness Percentile: 75%
+- Excitement Seeking Percentile: 10%
 - Friendliness Percentile: 47.5%
 - Gegariousness Percentile: 20%
-- Assertiveness Percentile: 30%
-- Activity Level Percentile: 27.5%
-- Excitement Seeking Percentile: 10%
-- Cheerfulness Percentile: 75%
-- **Total Extraversion Percentile: 35%**
+
+**Total Extraversion Percentile: 35%**
 
 ## Agreeableness
 
-- Trust Percentile: 62.5%
-- Morality Percentile: 95%
 - Altruism Percentile: 80%
 - Cooperation Percentile: 90%
 - Modesty Percentile: 75%
+- Morality Percentile: 95%
 - Sympathy Percentile: 57.5%
-- **Total Agreeableness Percentile: 76.7%**
+- Trust Percentile: 62.5%
+
+**Total Agreeableness Percentile: 76.7%**
 
 ## Neurotic
 
 - Anxiety Percentile: 45%
 - Anger Percentile: 15%
 - Depression Percentile: 15%
-- Self-consciousness Percentile: 55%
 - Immoderation Percentile: 32.5%
+- Self-consciousness Percentile: 55%
 - Vulnerability Percentile: 42.5%
-- **Total Neurotic Percentile: 35.4%**
+
+**Total Neurotic Percentile: 35.4%**
 
 
 # Understanding My Results
@@ -104,7 +114,7 @@ There are 300 questions, broken down as follows:
   - Net_Score: 44-10 = 34
   - Percentile: (34 * 2.5) = 85%
 
-### Totals for this facet:
+### Totals for This Factor:
 
 - **Total Openness - Raw_Score: 260**
 - **Total Openness - Difference_From_Median: +80**
@@ -138,7 +148,7 @@ There are 300 questions, broken down as follows:
   - Net_Score 45-10 = 35
   - Percentile: (35 * 2.5) = 87.5%
 
-### Totals for this facet:
+### Totals for This Factor:
 
 - **Total Conscientious - Raw_Score: 241**
 - **Total Conscientious - Difference_From_Median: +61**
@@ -172,7 +182,7 @@ There are 300 questions, broken down as follows:
   - Net_Score 40-10 = 30
   - Percentile: (30 * 2.5) = 75%
 
-### Totals for this facet:
+### Totals for This Factor:
 
 - **Total Extraversion - Raw_Score: 144**
 - **Total Extraversion - Difference_From_Median: -36**
@@ -206,7 +216,7 @@ There are 300 questions, broken down as follows:
   - Net_Score 33-10 = 23
   - Percentile: (23 * 2.5) = 57.5%
 
-### Totals for this facet:
+### Totals for This Factor:
 
 - **Total Agreeableness - Raw_Score: 244**
 - **Total Agreeableness - Difference_From_Median: +64**
@@ -240,7 +250,7 @@ There are 300 questions, broken down as follows:
   - Net_Score: 27-10 = 17
   - Percentile: (17 * 2.5) = 42.5%
 
-### Totals for this facet:
+### Totals for This Factor:
 
 - **Total Neurotic - Raw_Score: 145**
 - **Total Neurotic - Difference_From_Median: -35**
