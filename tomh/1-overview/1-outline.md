@@ -44,5 +44,6 @@ Desired cognitive effect: The Alienation Effect
   - Mini-rant: TBD
 - Day 7: Conclusion
   - Revisit goals set forth in Day 1
-  - What do **you** think??
+  - I think I will start creating more videos
+  - Do extreme results indicate a pathology or a super-power?  What do **you** think??
 
